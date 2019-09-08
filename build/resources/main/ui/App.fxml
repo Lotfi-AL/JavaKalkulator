@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.KalkKontroller">
+    <children>
+        <AnchorPane layoutX="-104.0" layoutY="-121.0" prefHeight="400.0" prefWidth="600.0">
+            <children>
+                <TextField fx:id="txtUt" editable="false" layoutX="201.0" layoutY="299.0" prefHeight="26.0" prefWidth="298.0" />
+                <TextField fx:id="txtTall3" layoutX="241.0" layoutY="213.0" prefHeight="25.0" prefWidth="198.0" />
+                <Button fx:id="btnTest" layoutX="311.0" layoutY="258.0" mnemonicParsing="false" onAction="#test" text="Regn Ut" />
+                <Label layoutX="201.0" layoutY="159.0" prefHeight="18.0" prefWidth="339.0" text="Skriv inn to tall separert med en av fire mulige kommandoer" />
+                <Label layoutX="133.0" layoutY="169.0" text="Gange: *" />
+                <Label layoutX="132.0" layoutY="197.0" text="Dele: /" />
+                <Label layoutX="132.0" layoutY="226.0" text="Plusse: +" />
+                <Label layoutX="134.0" layoutY="151.0" text="Minus: -" />
+                <Button layoutX="495.0" layoutY="200.0" mnemonicParsing="false" onAction="#save" text="Lagre" />
+                <Button layoutX="495.0" layoutY="236.0" mnemonicParsing="false" onAction="#load" text="Laste" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
